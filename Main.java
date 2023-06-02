@@ -2,9 +2,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Inputed a number of lines of arrow: " + args[0]);
-        int n = Integer.parseInt(args[0]);
+        System.out.print("Input a number of lines of arrow: ");
+        int n = scanner.nextInt;
 
         //int n = 12; //the size of arrow
         int last = n*2-1; // num of symbols at last line
